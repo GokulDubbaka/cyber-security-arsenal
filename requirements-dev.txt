@@ -1,0 +1,10 @@
+# cyber-security-arsenal — Development Dependencies
+# Install with: pip install -r requirements-dev.txt
+# (Also installs runtime deps via requirements.txt)
+
+-r requirements.txt
+
+# Testing
+pytest>=8.2.0
+pytest-cov>=5.0.0
+pytest-mock>=3.14.0

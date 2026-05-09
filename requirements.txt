@@ -1,0 +1,24 @@
+# cyber-security-arsenal — Python Dependencies
+# Install with: pip install -r requirements.txt
+# For running tests: pip install -r requirements-dev.txt
+
+# HTTP client
+requests>=2.31.0
+
+# DNS resolution
+dnspython>=2.6.1
+
+# Async networking
+aiohttp>=3.9.5
+
+# Port scanning interface (system nmap required: apt install nmap)
+python-nmap>=0.7.1
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Optional: WHOIS lookups
+# python-whois>=0.8.0
+
+# Optional: SSL certificate parsing
+# pyOpenSSL>=24.0.0
